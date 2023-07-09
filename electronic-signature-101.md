@@ -35,28 +35,37 @@ Digital signatures are a type of electronic signature the utilizes digital certi
 This type of electronic signature provides the greatest level of technical assurance but is also more complex to implement/leverage at an individual or departmental level. Currently, the University has not formally established technology or processes to leverage this type of electronic signature. If you have a need to utilize digital signatures, contact the Information Security Office to request a consultation.
 
 ### Assess Risk
+
 When developing an electronic signature process, you must consider risk to ensure your approach is appropriate. The primary risk would be that the process does not result in a legally valid electronic signature. In such a scenario, an invalid signature could result in the record itself, and whatever it covers, being invalid as well. The impact of such requires careful consideration before proceeding.
 
-The next section provides information about the key requirements for legally valid electronic signature use under the acts.
+>Sometimes, in our pursuit of comprehensive risk assessment, we tend to overcomplicate matters. It's crucial to remember that at the core, risk can be distilled into two key elements: likelihood and impact. By focusing on these fundamental factors, we can avoid unnecessary complexity and make more effective decisions to safeguard against potential risks.
+>
+> -- ChatGPT
 
 ## Requirements for E-Sign
+This section provides information about the key requirements for legally valid electronic signature use under the acts.
+
 Under the UETA and ESIGN Act, there are four key requirements for any electronic signature use to be legally valid.
 
 ### Consent to do business electronically
 The parties to an electronic transaction must either display or reasonably imply their consent to transmit information electronically before doing so.
 
----
-
-**Example: Adobe Acrobat Sign**
-
-^By signing, I agree to the agreement, the ~~Consumer Disclosure~~, and to do business electronically with for\@example.com.^
-
-**Example: DocuSign**
-
-^Please read the ~~Electronic Record and Signature Disclosure~~.^<br>^☐ I agree to use electronic records and signatures.^
+>**Examples**
+>
+>>**Adobe Acrobat Sign**
+>>
+>>^By signing, I agree to the agreement, the ~~Consumer Disclosure~~, and to do business electronically with for\@example.com.^
+>
+>>**DocuSign**
+>>
+>>^Please read the ~~Electronic Record and Signature Disclosure~~.^<br>^☐ I agree to use electronic records and signatures.^
 
 ### Intent to sign
 Like paper-based equivalents, electronic signatures are only valid when a signer displays a willful intent to sign. A standard approach is to ensure that signature lines have a statement that specifically indicates agreement to the terms as well as the choice to sign electronically.
+
+>**Example**
+>
+>^By placing my electronic signature below, I acknowledge that I have read and understood the terms and conditions set forth in this document. I further confirm my intent to sign this document and agree that my electronic signature is legally binding, just as if I had signed it with a physical signature. I understand that by signing electronically, I am consenting to conduct business electronically and agree that my electronic signature has the same legal effect and enforceability as a handwritten signature. I also acknowledge that I have the necessary authority to sign this document on behalf of myself or the entity I represent, if applicable.^
 
 ### Association of electronic signature with the record
 An electronic record or electronic signature is attributable to a person if it was the act of the person. The act of the person may be shown in any manner, including a showing of the efficacy of any security procedure applied to determine the person to which the electronic record or electronic signature was attributable.
@@ -108,6 +117,16 @@ Moderate Risk.
 * You could require the use of authentication prior to signing of the agreement. Authentication with a username and password would provide greater assurance than just emailing a document with a signature mark.
 * The process documentation, technical configuration, and the records of authentication would be associated with the record to reasonably demonstrate it was the act of the individual.
 * A risk is that basic authentication of username and password is known to be weak to compromise through phishing attacks. If the agreement warranted a greater assurance, multi-factor authentication could be additionally required.
+
+**Example: Event Space Agreement**
+
+Consider a scenario where you provide event space for parties. You want to have your space agreement available on a website so customers can easily submit their request. They simply fill out a web form with the information and submit it.
+
+In your agreement you include terms that cover prohibited activities, liabilities, and insurance. The terms of the agreement manage certain risks. You reduce the likelihood of dangerous activities by communicating they are prohibited and you reduce the impact by establishing the outcomes if the requestor violates the terms.
+
+Now consider a situation where the requestor violates the terms and physical damage occurs to their space. You have an assessment done and send them a bill for your losses. They refuse that they are responsibile and deny that they ever agreed such terms.
+
+This would almost certainly be a situation to involve property insurance and an attorney. You provide evidence of how your form meets the legal requirements for electronic signature as well as supporting information such as the IP address that submitted the form and the email address where a copy of the terms were sent.
 
 ### Scenario 2: Annual Performance Evaluation
 Moderate Risk.
